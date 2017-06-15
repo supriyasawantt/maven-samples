@@ -18,5 +18,15 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+             <distributionManagement>
+
+         <repositories>
+       <repository>
+          <id>central</id>
+          <url>http://10.51.233.66:8081/>
+        </repository>
+    <repository>
+             </repositories>
+    </distributionManagement>
 
 </project>
